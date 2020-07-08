@@ -105,3 +105,32 @@ export  $initHighlight;
 |Francisco   |Villa| 84934783|
 
 
+# Citas
+
+Esto es una cita referente a una cita que pondremos debajo:
+> Esto es una cita
+
+Esto es otro texto
+> Esto es otra cita
+
+# Lineas Divisoras
+
+Esto será un texto que será dividido por guiones
+
+---
+Esto es otro texto dividido por asteriscos
+
+***
+
+Otra forma de dividir con guiones bajos
+
+___
+
+# Saltos de líneas 
+
+Este es el primer párrafo.
+
+Este es el segundo párrafo.
+
+Este es el tercer párrafo.
+
