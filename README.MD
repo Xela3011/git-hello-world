@@ -97,3 +97,11 @@ export  $initHighlight;
 
 ```
 
+# Tablas
+
+| Nombre | Apellido | Documento |
+| ------- | --------| ----------|
+|Maxi    |Fernández| 12437658|
+|Francisco   |Villa| 84934783|
+
+
