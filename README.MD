@@ -1,3 +1,4 @@
+# Cabeceras
 # Cabecera H1
 ## Cabecera H2
 ### Cabecera H3
@@ -12,6 +13,8 @@ Underline 1
 Underline 2
 ===========
 
+# Formatos de énfasis
+
 - formato *itálica* de la primera forma.
 - formato _itálica_ de la segunda forma.
 
@@ -21,6 +24,7 @@ Underline 2
 - formato ~~tachado~~, formato normal
 
 - aquí podemos usar *formato itálico*, pero también **bold**, pero sin dejar el ~~tachado~~
+
 
 
 
