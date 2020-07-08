@@ -6,6 +6,7 @@
 ###### Cabecera H5
 ###### Cabecera H6
 
+# Underlines
 
 Underline 1
 -----------
@@ -25,9 +26,74 @@ Underline 2
 
 - aquí podemos usar *formato itálico*, pero también **bold**, pero sin dejar el ~~tachado~~
 
+# Listas
+
+## Listas ordenadas
+
+1. Esto es un item.
+2. Esto es un item.
+3. Esto es un item.
+
+## Listas desordenadas
+
+- item desordenado.
+- item desordenado.
+- item desordenado.
+
+# Links
+
+- <a href="https://www.google.com">Esto es un link html</a>
+
+- [Esto es un link en markdown](https://www.google.com)
+
+- [Esto es un link al index](index.html)
+
+# Imágenes
+
+![Logo Github](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
 
 
+# Code Snippets
+Código en JSON
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+Código JavaScript
 
+```JavaScript
 
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
 
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+
+```
 
